@@ -1,0 +1,35 @@
+body{
+    color: red;
+}
+
+.title{
+    font-size: 6rem;
+}
+
+.subtitle{
+    font-size: 4rem;
+}
+
+@media all and(max-width: 400px){
+    body{
+        color: green;
+    }
+}
+
+@media print{
+    .title{
+        color: blue;
+    }
+}
+
+@media (orientation: landscape) and (min-width:300px){
+   .subtitle{
+        background-color: pink;
+   }
+}
+
+@media (orientation: landscape), (min-width:300px){
+    .subtitle{
+         background-color: pink;
+    }
+ }
