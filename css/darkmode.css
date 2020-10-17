@@ -1,0 +1,13 @@
+/* .dark-mode{
+     filter: invert(100%);
+    filter: invert(1) hue-rotate(180deg);
+} */
+
+:root{
+    filter: invert(1) hue-rotate(180deg);
+}
+
+
+.inverted{
+    filter: invert(1) hue-rotate(180deg);
+}
